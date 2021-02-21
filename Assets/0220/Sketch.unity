@@ -463,7 +463,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1044603644}
   - component: {fileID: 1044603643}
-  - component: {fileID: 1044603642}
   - component: {fileID: 1044603641}
   m_Layer: 0
   m_Name: Camera
@@ -586,14 +585,6 @@ MonoBehaviour:
       enableFptlForForwardOpaque: 0
       enableBigTilePrepass: 0
       isFptlEnabled: 0
---- !u!81 &1044603642
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1044603640}
-  m_Enabled: 1
 --- !u!20 &1044603643
 Camera:
   m_ObjectHideFlags: 0
