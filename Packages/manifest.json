@@ -10,7 +10,7 @@
     "com.unity.render-pipelines.high-definition": "11.0.0",
     "com.unity.modules.jsonserialize": "1.0.0",
     "jp.keijiro.metamesh": "0.0.8",
-    "jp.keijiro.klak.motion": "1.0.1",
+    "jp.keijiro.klak.motion": "1.0.2",
     "jp.keijiro.noiseshader": "1.0.0"
   }
 }

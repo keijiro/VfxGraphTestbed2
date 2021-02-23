@@ -177,6 +177,7 @@ MonoBehaviour:
     z: 30
   frequency: 0.1
   octaves: 1
+  seed: 419
 --- !u!1 &542922256
 GameObject:
   m_ObjectHideFlags: 0
