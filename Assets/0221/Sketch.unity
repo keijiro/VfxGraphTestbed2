@@ -190,7 +190,7 @@ GameObject:
   - component: {fileID: 542922258}
   - component: {fileID: 542922257}
   m_Layer: 0
-  m_Name: VFX
+  m_Name: Curl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
