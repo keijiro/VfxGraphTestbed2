@@ -118,7 +118,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d4c867f6b72b714dbb5fd1780afe208, type: 3}
-  m_Name: VFX
+  m_Name: Curl
   m_EditorClassIdentifier: 
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 0}
@@ -171,7 +171,7 @@ VisualEffectResource:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: VFX
+  m_Name: Curl
   m_Graph: {fileID: 114350483966674976}
   m_Infos:
     m_RendererSettings:
@@ -5325,7 +5325,6 @@ MonoBehaviour:
   m_InputSlots:
   - {fileID: 8926484042661614802}
   - {fileID: 8926484042661614803}
-  - {fileID: 8926484042661614804}
   m_OutputSlots: []
   m_Label: 
   m_Data: {fileID: 8926484042661614795}
@@ -5359,7 +5358,7 @@ MonoBehaviour:
   onlyAmbientLighting: 0
   diffusionProfileAsset: {fileID: 0}
   multiplyThicknessWithAlpha: 0
-  useBaseColorMap: 3
+  useBaseColorMap: 0
   useMaskMap: 0
   useNormalMap: 0
   useEmissiveMap: 0
@@ -5434,7 +5433,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 1
+      m_SerializableObject: 0
     m_Space: 2147483647
   m_Property:
     name: metallic
