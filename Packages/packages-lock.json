@@ -39,7 +39,7 @@
       }
     },
     "com.unity.searcher": {
-      "version": "4.3.1",
+      "version": "4.3.2",
       "depth": 2,
       "source": "registry",
       "dependencies": {},
@@ -68,7 +68,8 @@
       "depth": 1,
       "source": "builtin",
       "dependencies": {
-        "com.unity.shadergraph": "11.0.0"
+        "com.unity.shadergraph": "11.0.0",
+        "com.unity.render-pipelines.core": "11.0.0"
       }
     },
     "jp.keijiro.klak.motion": {
@@ -97,7 +98,7 @@
       "url": "https://registry.npmjs.com"
     },
     "jp.keijiro.vfxgraphassets": {
-      "version": "1.0.1",
+      "version": "1.0.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {

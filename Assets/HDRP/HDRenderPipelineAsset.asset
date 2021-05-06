@@ -16,7 +16,7 @@ MonoBehaviour:
   m_RenderPipelineRayTracingResources: {fileID: 0}
   m_DefaultVolumeProfile: {fileID: 11400000, guid: 7920d18d0aad55342800ad7f2a41e3ad, type: 2}
   m_LensAttenuation: 0
-  m_DefaultLookDevProfile: {fileID: 0}
+  m_DefaultLookDevProfile: {fileID: 11400000, guid: 07d9a528c96c842efb6b4448c66e57f3, type: 2}
   m_RenderingPathDefaultCameraFrameSettings:
     bitDatas:
       data1: 72198262773251917
@@ -263,10 +263,6 @@ MonoBehaviour:
       - 0.5
       - 0.25
       RTGISecondDenoise: 010101
-      RTGISecondDenoiserRadius:
-      - 0
-      - 0
-      - 0
       RTRMinSmoothness:
       - 0.6
       - 0.4
