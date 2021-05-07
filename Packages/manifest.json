@@ -9,7 +9,7 @@
     }
   ],
   "dependencies": {
-    "com.unity.render-pipelines.high-definition": "11.0.0",
+    "com.unity.render-pipelines.high-definition": "12.0.0",
     "jp.keijiro.klak.motion": "1.0.2",
     "jp.keijiro.metamesh": "1.0.0",
     "jp.keijiro.noiseshader": "1.0.0",
