@@ -63,9 +63,9 @@ MonoBehaviour:
   categories: []
   uiBounds:
     serializedVersion: 2
-    x: 1986
+    x: 1985
     y: -2872
-    width: 2120
+    width: 2121
     height: 2709
 --- !u!114 &114350483966674976
 MonoBehaviour:
@@ -4616,7 +4616,7 @@ MonoBehaviour:
         m_SerializableType: UnityEditor.VFX.DirectionType, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
       m_SerializableObject: 
-    m_Space: 2147483647
+    m_Space: 0
   m_Property:
     name: Direction
     m_serializedType:

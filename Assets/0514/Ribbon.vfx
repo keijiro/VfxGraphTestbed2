@@ -636,7 +636,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614991}
   - {fileID: 8926484042661615026}
   dataType: 0
-  capacity: 32
+  capacity: 16
   stripCapacity: 1
   particlePerStripCount: 128
   m_Space: 0
@@ -1341,8 +1341,8 @@ MonoBehaviour:
   - {fileID: 8926484042661615068}
   - {fileID: 8926484042661615070}
   dataType: 1
-  capacity: 2048
-  stripCapacity: 32
+  capacity: 1024
+  stripCapacity: 16
   particlePerStripCount: 64
   m_Space: 0
 --- !u!114 &8926484042661615052
@@ -10017,7 +10017,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615531}
   - {fileID: 8926484042661615533}
   dataType: 0
-  capacity: 3000
+  capacity: 1000
   stripCapacity: 1
   particlePerStripCount: 128
   m_Space: 0
