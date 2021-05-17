@@ -37,3 +37,8 @@ void SimplexNoise3D_float(float3 pos, out float value, out float3 grad)
     grad = n.xyz;
     value = n.w;
 }
+
+#undef mod289
+#undef permute
+#undef taylorInvSqrt
+#undef snoise
