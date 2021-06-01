@@ -18,16 +18,16 @@ MonoBehaviour:
     m_Value: 1
   edgeColor:
     m_OverrideState: 1
-    m_Value: {r: 0, g: 0, b: 0, a: 1}
+    m_Value: {r: 0.029596725, g: 0, b: 0.3018868, a: 1}
   edgeContrast:
     m_OverrideState: 1
     m_Value: 2.34
   fillColor:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 1, b: 1, a: 0.94509804}
+    m_Value: {r: 1, g: 1, b: 1, a: 0.8509804}
   blurWidth:
     m_OverrideState: 1
-    m_Value: 1.24
+    m_Value: 1
   blurFrequency:
     m_OverrideState: 1
     m_Value: 0.38
@@ -36,7 +36,7 @@ MonoBehaviour:
     m_Value: 0
   interval:
     m_OverrideState: 1
-    m_Value: 0.95
+    m_Value: 0.9
   iteration:
     m_OverrideState: 0
     m_Value: 20
@@ -282,7 +282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9008a067f4d626c4d8bc4bc48f04bb89, type: 3}
   m_Name: AmbientOcclusion
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   quality:
     m_OverrideState: 0
     m_Value: 1
@@ -291,7 +291,7 @@ MonoBehaviour:
     m_Value: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 0.75
   directLightingStrength:
     m_OverrideState: 1
     m_Value: 1
