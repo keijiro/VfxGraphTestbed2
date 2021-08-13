@@ -8,7 +8,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.recorder": {
-      "version": "3.0.0-pre.2",
+      "version": "3.0.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -33,6 +33,7 @@
         "com.unity.modules.video": "1.0.0",
         "com.unity.modules.animation": "1.0.0",
         "com.unity.modules.imageconversion": "1.0.0",
+        "com.unity.modules.terrain": "1.0.0",
         "com.unity.render-pipelines.core": "12.0.0",
         "com.unity.shadergraph": "12.0.0",
         "com.unity.visualeffectgraph": "12.0.0",
@@ -64,7 +65,7 @@
       }
     },
     "com.unity.timeline": {
-      "version": "1.6.0-pre.3",
+      "version": "1.6.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -193,6 +194,12 @@
     "com.unity.modules.physics": {
       "version": "1.0.0",
       "depth": 2,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.terrain": {
+      "version": "1.0.0",
+      "depth": 1,
       "source": "builtin",
       "dependencies": {}
     },

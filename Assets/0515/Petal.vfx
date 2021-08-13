@@ -99,9 +99,8 @@ MonoBehaviour:
   m_UIInfos: {fileID: 114340500867371532}
   m_ParameterInfo: []
   m_ImportDependencies: []
-  m_GraphVersion: 7
+  m_GraphVersion: 8
   m_ResourceVersion: 1
-  m_saved: 1
   m_SubgraphDependencies:
   - {fileID: 5371698748595113096, guid: c1fbe4c48e69e7246b10e675199027c4, type: 3}
   - {fileID: 5371698745253816930, guid: 98f236f2b3ba0b14393b67b5897ed6ca, type: 3}
@@ -532,6 +531,8 @@ MonoBehaviour:
   capacity: 300
   stripCapacity: 16
   particlePerStripCount: 16
+  needsComputeBounds: 0
+  boundsSettingMode: 1
   m_Space: 0
 --- !u!114 &8926484042661614583
 MonoBehaviour:
@@ -648,6 +649,9 @@ MonoBehaviour:
   useExposureWeight: 0
   flipbookLayout: 0
   shaderGraph: {fileID: 0}
+  materialSettings:
+    m_PropertyNames: []
+    m_PropertyValues: []
   materialType: 0
   onlyAmbientLighting: 0
   diffusionProfileAsset: {fileID: 0}
@@ -8094,7 +8098,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_UIIgnoredErrors: []
-  m_Parent: {fileID: 0}
+  m_Parent: {fileID: 114350483966674976}
   m_Children: []
   m_UIPosition: {x: 0, y: 0}
   m_UICollapsed: 1
@@ -8549,7 +8553,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_UIIgnoredErrors: []
-  m_Parent: {fileID: 0}
+  m_Parent: {fileID: 114350483966674976}
   m_Children: []
   m_UIPosition: {x: 0, y: 0}
   m_UICollapsed: 1
@@ -8562,6 +8566,8 @@ MonoBehaviour:
   capacity: 64
   stripCapacity: 1
   particlePerStripCount: 64
+  needsComputeBounds: 0
+  boundsSettingMode: 1
   m_Space: 0
 --- !u!114 &8926484042661614966
 MonoBehaviour:
@@ -8909,6 +8915,9 @@ MonoBehaviour:
   useExposureWeight: 0
   flipbookLayout: 0
   shaderGraph: {fileID: 0}
+  materialSettings:
+    m_PropertyNames: []
+    m_PropertyValues: []
   materialType: 0
   onlyAmbientLighting: 0
   diffusionProfileAsset: {fileID: 0}
@@ -10989,7 +10998,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_UIIgnoredErrors: []
-  m_Parent: {fileID: 0}
+  m_Parent: {fileID: 114350483966674976}
   m_Children: []
   m_UIPosition: {x: 0, y: 0}
   m_UICollapsed: 1
@@ -11409,7 +11418,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_UIIgnoredErrors: []
-  m_Parent: {fileID: 0}
+  m_Parent: {fileID: 114350483966674976}
   m_Children: []
   m_UIPosition: {x: 0, y: 0}
   m_UICollapsed: 1
@@ -11423,6 +11432,8 @@ MonoBehaviour:
   capacity: 1000
   stripCapacity: 1
   particlePerStripCount: 128
+  needsComputeBounds: 0
+  boundsSettingMode: 1
   m_Space: 0
 --- !u!114 &8926484042661615084
 MonoBehaviour:
@@ -12040,6 +12051,9 @@ MonoBehaviour:
   useExposureWeight: 0
   flipbookLayout: 0
   shaderGraph: {fileID: 0}
+  materialSettings:
+    m_PropertyNames: []
+    m_PropertyValues: []
   materialType: 0
   onlyAmbientLighting: 0
   diffusionProfileAsset: {fileID: 0}

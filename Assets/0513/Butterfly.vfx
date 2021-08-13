@@ -147,9 +147,8 @@ MonoBehaviour:
   m_UIInfos: {fileID: 114340500867371532}
   m_ParameterInfo: []
   m_ImportDependencies: []
-  m_GraphVersion: 7
+  m_GraphVersion: 8
   m_ResourceVersion: 1
-  m_saved: 1
   m_SubgraphDependencies:
   - {fileID: 5371698745253816930, guid: 98f236f2b3ba0b14393b67b5897ed6ca, type: 3}
   m_CategoryPath: 
@@ -654,6 +653,8 @@ MonoBehaviour:
   capacity: 500
   stripCapacity: 1
   particlePerStripCount: 128
+  needsComputeBounds: 0
+  boundsSettingMode: 1
   m_Space: 0
 --- !u!114 &8926484042661615699
 MonoBehaviour:
@@ -839,6 +840,9 @@ MonoBehaviour:
   useExposureWeight: 0
   flipbookLayout: 0
   shaderGraph: {fileID: 0}
+  materialSettings:
+    m_PropertyNames: []
+    m_PropertyValues: []
   materialType: 0
   onlyAmbientLighting: 0
   diffusionProfileAsset: {fileID: 0}
@@ -1662,6 +1666,9 @@ MonoBehaviour:
   useExposureWeight: 0
   flipbookLayout: 0
   shaderGraph: {fileID: 0}
+  materialSettings:
+    m_PropertyNames: []
+    m_PropertyValues: []
   materialType: 0
   onlyAmbientLighting: 0
   diffusionProfileAsset: {fileID: 0}
@@ -6885,6 +6892,8 @@ MonoBehaviour:
   capacity: 64
   stripCapacity: 1
   particlePerStripCount: 128
+  needsComputeBounds: 0
+  boundsSettingMode: 1
   m_Space: 0
 --- !u!114 &8926484042661616056
 MonoBehaviour:
@@ -8092,6 +8101,8 @@ MonoBehaviour:
   capacity: 4096
   stripCapacity: 64
   particlePerStripCount: 64
+  needsComputeBounds: 0
+  boundsSettingMode: 1
   m_Space: 0
 --- !u!114 &8926484042661616102
 MonoBehaviour:
@@ -8269,6 +8280,9 @@ MonoBehaviour:
   useExposureWeight: 0
   flipbookLayout: 0
   shaderGraph: {fileID: 0}
+  materialSettings:
+    m_PropertyNames: []
+    m_PropertyValues: []
   materialType: 0
   onlyAmbientLighting: 0
   diffusionProfileAsset: {fileID: 0}

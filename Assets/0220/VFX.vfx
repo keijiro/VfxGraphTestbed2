@@ -149,9 +149,8 @@ MonoBehaviour:
     enumValues: []
     descendantCount: 0
   m_ImportDependencies: []
-  m_GraphVersion: 6
+  m_GraphVersion: 8
   m_ResourceVersion: 1
-  m_saved: 1
   m_SubgraphDependencies: []
   m_CategoryPath: 
 --- !u!2058629511 &8926484042661614527
@@ -575,6 +574,8 @@ MonoBehaviour:
   capacity: 128
   stripCapacity: 16
   particlePerStripCount: 16
+  needsComputeBounds: 0
+  boundsSettingMode: 1
   m_Space: 0
 --- !u!114 &8926484042661614580
 MonoBehaviour:
@@ -1240,6 +1241,8 @@ MonoBehaviour:
   capacity: 16384
   stripCapacity: 128
   particlePerStripCount: 128
+  needsComputeBounds: 0
+  boundsSettingMode: 1
   m_Space: 0
 --- !u!114 &8926484042661614630
 MonoBehaviour:
@@ -1397,6 +1400,7 @@ MonoBehaviour:
   useAlphaClipping: 0
   generateMotionVector: 0
   excludeFromTAA: 0
+  materialOffset: 0
   m_SubOutputs:
   - {fileID: 8926484042661614637}
   cullMode: 3

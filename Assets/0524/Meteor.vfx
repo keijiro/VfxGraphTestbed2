@@ -68,9 +68,8 @@ MonoBehaviour:
     enumValues: []
     descendantCount: 0
   m_ImportDependencies: []
-  m_GraphVersion: 7
+  m_GraphVersion: 8
   m_ResourceVersion: 1
-  m_saved: 1
   m_SubgraphDependencies: []
   m_CategoryPath: 
 --- !u!2058629511 &8926484042661614527
@@ -745,6 +744,8 @@ MonoBehaviour:
   capacity: 64
   stripCapacity: 1
   particlePerStripCount: 128
+  needsComputeBounds: 0
+  boundsSettingMode: 1
   m_Space: 0
 --- !u!114 &8926484042661614970
 MonoBehaviour:
@@ -1463,6 +1464,9 @@ MonoBehaviour:
   useExposureWeight: 0
   flipbookLayout: 0
   shaderGraph: {fileID: -5475051401550479605, guid: 81157c131f7267c48b397ae46b051bf4, type: 3}
+  materialSettings:
+    m_PropertyNames: []
+    m_PropertyValues: []
   primitiveType: 1
   useGeometryShader: 0
 --- !u!114 &8926484042661614997
@@ -3093,6 +3097,8 @@ MonoBehaviour:
   capacity: 1024
   stripCapacity: 64
   particlePerStripCount: 16
+  needsComputeBounds: 0
+  boundsSettingMode: 1
   m_Space: 0
 --- !u!114 &8926484042661615058
 MonoBehaviour:

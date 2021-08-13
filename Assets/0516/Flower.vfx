@@ -106,9 +106,8 @@ MonoBehaviour:
   m_UIInfos: {fileID: 114340500867371532}
   m_ParameterInfo: []
   m_ImportDependencies: []
-  m_GraphVersion: 7
+  m_GraphVersion: 8
   m_ResourceVersion: 1
-  m_saved: 1
   m_SubgraphDependencies:
   - {fileID: 5371698745253816930, guid: 0a7705ffa07e0d74585186c8ac4cf7a5, type: 3}
   - {fileID: 5371698748595113096, guid: eb257c135df6eb9468ef0aa2f15165b0, type: 3}
@@ -586,6 +585,8 @@ MonoBehaviour:
   capacity: 512
   stripCapacity: 1
   particlePerStripCount: 128
+  needsComputeBounds: 0
+  boundsSettingMode: 1
   m_Space: 0
 --- !u!114 &8926484042661614630
 MonoBehaviour:
@@ -1404,6 +1405,8 @@ MonoBehaviour:
   capacity: 32
   stripCapacity: 1
   particlePerStripCount: 128
+  needsComputeBounds: 0
+  boundsSettingMode: 1
   m_Space: 0
 --- !u!114 &8926484042661614964
 MonoBehaviour:
@@ -3373,6 +3376,8 @@ MonoBehaviour:
   capacity: 51200
   stripCapacity: 512
   particlePerStripCount: 100
+  needsComputeBounds: 0
+  boundsSettingMode: 1
   m_Space: 0
 --- !u!114 &8926484042661615129
 MonoBehaviour:
@@ -3581,7 +3586,7 @@ MonoBehaviour:
         m_SerializableType: UnityEditor.VFX.DirectionType, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
       m_SerializableObject: 
-    m_Space: 2147483647
+    m_Space: 0
   m_Property:
     name: Direction
     m_serializedType:
@@ -4377,6 +4382,8 @@ MonoBehaviour:
   capacity: 8192
   stripCapacity: 32
   particlePerStripCount: 256
+  needsComputeBounds: 0
+  boundsSettingMode: 1
   m_Space: 0
 --- !u!114 &8926484042661615207
 MonoBehaviour:
@@ -6660,6 +6667,8 @@ MonoBehaviour:
   capacity: 3000
   stripCapacity: 1
   particlePerStripCount: 128
+  needsComputeBounds: 0
+  boundsSettingMode: 1
   m_Space: 0
 --- !u!114 &8926484042661615415
 MonoBehaviour:
@@ -9166,6 +9175,8 @@ MonoBehaviour:
   capacity: 1000
   stripCapacity: 1
   particlePerStripCount: 128
+  needsComputeBounds: 0
+  boundsSettingMode: 1
   m_Space: 0
 --- !u!114 &8926484042661615704
 MonoBehaviour:
@@ -9464,6 +9475,9 @@ MonoBehaviour:
   useExposureWeight: 0
   flipbookLayout: 0
   shaderGraph: {fileID: 0}
+  materialSettings:
+    m_PropertyNames: []
+    m_PropertyValues: []
   materialType: 0
   onlyAmbientLighting: 0
   diffusionProfileAsset: {fileID: 0}
@@ -9775,6 +9789,9 @@ MonoBehaviour:
   useExposureWeight: 0
   flipbookLayout: 0
   shaderGraph: {fileID: 0}
+  materialSettings:
+    m_PropertyNames: []
+    m_PropertyValues: []
   materialType: 0
   onlyAmbientLighting: 0
   diffusionProfileAsset: {fileID: 0}
@@ -10498,6 +10515,9 @@ MonoBehaviour:
   useExposureWeight: 0
   flipbookLayout: 0
   shaderGraph: {fileID: 0}
+  materialSettings:
+    m_PropertyNames: []
+    m_PropertyValues: []
   materialType: 0
   onlyAmbientLighting: 0
   diffusionProfileAsset: {fileID: 0}
