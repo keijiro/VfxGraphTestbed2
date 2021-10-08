@@ -15,9 +15,10 @@
     "jp.keijiro.kino.aqua": "1.0.3",
     "jp.keijiro.kino.post-processing": "2.1.15",
     "jp.keijiro.klak.motion": "1.0.2",
-    "jp.keijiro.metamesh": "1.0.0",
+    "jp.keijiro.metamesh": "1.0.1",
     "jp.keijiro.noiseshader": "2.0.0",
-    "jp.keijiro.vfxgraphassets": "1.0.5",
+    "jp.keijiro.shadergraphassets": "1.0.0",
+    "jp.keijiro.vfxgraphassets": "1.0.6",
     "com.unity.modules.jsonserialize": "1.0.0"
   }
 }
