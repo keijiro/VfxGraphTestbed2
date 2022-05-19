@@ -63,8 +63,9 @@ MonoBehaviour:
   m_RenderPipelineRayTracingResources: {fileID: 0}
   beforeTransparentCustomPostProcesses: []
   beforePostProcessCustomPostProcesses: []
+  afterPostProcessBlursCustomPostProcesses: []
   afterPostProcessCustomPostProcesses:
-  - Kino.PostProcessing.Aqua, Kino.Postprocessing.Aqua.Runtime, Version=0.0.0.0,
+  - Kino.PostProcessing.Aqua, Kino.PostProcessing.Aqua.Runtime, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   - Kino.PostProcessing.Overlay, Kino.Postprocessing, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
@@ -94,7 +95,10 @@ MonoBehaviour:
   useDLSSCustomProjectId: 0
   supportProbeVolumes: 0
   supportRuntimeDebugDisplay: 0
-  apvScenesBounds:
+  apvScenesData:
     serializedBounds: []
     serializedHasVolumes: []
+    serializedProfiles: []
+    serializedBakeSettings: []
+    serializedBakingSets: []
   m_Version: 3
